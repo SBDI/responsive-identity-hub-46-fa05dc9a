@@ -1,21 +1,25 @@
+import project1Image from "../static/images/project1.jpg";
+import project2Image from "../static/images/project2.jpg";
+import project3Image from "../static/images/project3.jpg";
+
 const Portfolio = () => {
   const projects = [
     {
       title: "E-commerce App",
       description: "A full-featured shopping app built with Flutter and Firebase",
-      image: "/images/project1.jpg",
+      image: project1Image,
       tags: ["Flutter", "Firebase", "Stripe"],
     },
     {
       title: "Social Media Dashboard",
       description: "Real-time analytics dashboard for social media management",
-      image: "/images/project2.jpg",
+      image: project2Image,
       tags: ["Flutter", "REST API", "Charts"],
     },
     {
       title: "Fitness Tracker",
       description: "Health and fitness tracking app with workout plans",
-      image: "/images/project3.jpg",
+      image: project3Image,
       tags: ["Flutter", "SQLite", "BLoC"],
     },
   ];
