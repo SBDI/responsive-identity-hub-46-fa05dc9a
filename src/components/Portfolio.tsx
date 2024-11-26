@@ -3,19 +3,19 @@ const Portfolio = () => {
     {
       title: "E-commerce App",
       description: "A full-featured shopping app built with Flutter and Firebase",
-      image: "https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=500",
+      image: "/images/project1.jpg",
       tags: ["Flutter", "Firebase", "Stripe"],
     },
     {
       title: "Social Media Dashboard",
       description: "Real-time analytics dashboard for social media management",
-      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500",
+      image: "/images/project2.jpg",
       tags: ["Flutter", "REST API", "Charts"],
     },
     {
       title: "Fitness Tracker",
       description: "Health and fitness tracking app with workout plans",
-      image: "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?w=500",
+      image: "/images/project3.jpg",
       tags: ["Flutter", "SQLite", "BLoC"],
     },
   ];
