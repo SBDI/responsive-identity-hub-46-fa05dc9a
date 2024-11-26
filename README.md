@@ -4,6 +4,17 @@
 
 **URL**: https://lovable.dev/projects/e917da19-5b9c-43c2-b3a5-ccda1f91fd03
 
+## How to customize the content
+
+To personalize this portfolio, you'll need to modify the following files:
+
+1. `src/components/Hero.tsx` - Update your name, role, and introduction
+2. `src/components/About.tsx` - Modify your skills and about section
+3. `src/components/Portfolio.tsx` - Add your own projects
+4. `src/components/Contact.tsx` - Update your contact information and social links
+5. `src/components/Footer.tsx` - Change the footer content
+6. Update your profile picture by replacing the image URL in `Hero.tsx`
+
 ## How can I edit this code?
 
 There are several ways of editing your application.
