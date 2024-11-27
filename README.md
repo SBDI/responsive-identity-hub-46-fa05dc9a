@@ -4,6 +4,32 @@
 
 **URL**: https://lovable.dev/projects/e917da19-5b9c-43c2-b3a5-ccda1f91fd03
 
+## Deployment Instructions
+
+To deploy this project to GitHub Pages:
+
+1. Make the deployment script executable:
+   ```sh
+   chmod +x deploy.sh
+   ```
+
+2. Edit the deploy.sh script:
+   - If deploying to `https://<USERNAME>.github.io`, uncomment and update the corresponding git push line
+   - If deploying to `https://<USERNAME>.github.io/<REPO>`, uncomment and update the other git push line
+   - If using a custom domain, uncomment and update the CNAME line
+
+3. Run the deployment script:
+   ```sh
+   ./deploy.sh
+   ```
+
+4. In your GitHub repository settings:
+   - Go to Settings > Pages
+   - Set the source branch to `gh-pages`
+   - Save your changes
+
+Your site will be live at your GitHub Pages URL after a few minutes.
+
 ## How to customize the content
 
 To personalize this portfolio, you'll need to modify the following files:
